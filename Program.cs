@@ -9,18 +9,18 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-            //#region LinkedList
-            //LinkedList list = new LinkedList();
-            //list.Add(56);
-            //list.Add(30);
-            //list.Add(70);
-            //list.Add(70);
-            //list.InsertAtParticularPosition(2, 30);
-            //list.Display();
+            #region LinkedList
+            LinkedList list = new LinkedList();
+            list.Add(56);
+            list.Add(30);
+            list.Add(70);
+            list.Add(70);
+            list.InsertAtParticularPosition(2, 30);
+            list.Display();
 
 
 
-            //#endregion
+            #endregion
 
             #region QueueUsingLikedList
             LinkedListQueue linkedListQueue = new LinkedListQueue();
@@ -32,24 +32,19 @@ namespace DataStructures
 
             #endregion
 
-            //#region StackCode
-            //LinkedListStack linkedListStack = new LinkedListStack();
-            //linkedListStack.Push(70);
-            //linkedListStack.Push(30);
-            //linkedListStack.Push(56);
-            //linkedListStack.Display();
-            ////linkedListStack.Peek(); top.data
-            ////linkedListStack.Pop();
-            ////linkedListStack.IsEmpty();
-            ////linkedListStack.Display();
+            #region StackCode
+            LinkedListStack linkedListStack = new LinkedListStack();
+            linkedListStack.Push(70);
+            linkedListStack.Push(30);
+            linkedListStack.Push(56);
+            linkedListStack.Display();
+            linkedListStack.Peek(); //top.data
+            linkedListStack.Pop();
+            linkedListStack.IsEmpty();
+            linkedListStack.Display();
 
-            //#endregion
-            //Console.ReadKey();
+            #endregion
+            Console.ReadKey();
         }
     }
 }
-
-//    internal class LinkedList1
-//    {
-//    }
-//
